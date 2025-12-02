@@ -31,7 +31,7 @@ function App() {
   
   return (
     <div className="container">
-      <h2>Dictionary APP</h2>
+      <h2>Dictionary App</h2>
 
       <input
         type="text"
@@ -41,10 +41,10 @@ function App() {
       />
 
       <button className="search-btn" onClick={searchWord}>Search</button>
+       <h3>Definition:</h3>
 
       {foundWord && (
         <>
-          <h3>Definition:</h3>
           <p>{foundWord}</p>
         </>
       )}
